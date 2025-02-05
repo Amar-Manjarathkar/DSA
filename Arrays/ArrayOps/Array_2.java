@@ -28,7 +28,5 @@ public class Array_2 {
         // Printing the updated array
         System.out.println("Updated Array: " + Arrays.toString(newArr));
     sc.close();
-    }
-    
-    
+    }  
 }
