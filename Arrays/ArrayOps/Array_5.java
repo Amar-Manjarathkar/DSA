@@ -1,4 +1,5 @@
 public class Array_5 {
+    
     static int arr1[] = {10,20,3000,40,75,7004,165,946,1233};
     static int largest(){
         int max = arr1[0];
@@ -11,6 +12,7 @@ public class Array_5 {
         return max;
     }
     public static void main(String[] args) {
+        // by using array traversal and comparion 
         System.out.println("Largest Element is "+ largest());
     }
     

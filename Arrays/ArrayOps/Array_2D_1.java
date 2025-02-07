@@ -1,9 +1,13 @@
+
 import java.util.Scanner;
 
 public class Array_2D_1 {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // This Code is used to take size of an square matrix from user and print the elements that too from user 
         
+        Scanner sc = new Scanner(System.in);
+
         System.out.print("Enter the size of the SQUARE matrix: ");
         int n = sc.nextInt();
         int arr[][] = new int[n][n];
@@ -24,7 +28,7 @@ public class Array_2D_1 {
             }
             System.out.println(); // Move to the next row
         }
-        
+
         sc.close(); // Close the scanner to prevent resource leak
     }
 }

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class array_1 {
+public class Array_1 {
     public static void main(String[] args) {
         //This is a array program which takes the size and the data in the array as user input 
         System.out.println("Enter the Size of an Array :-");
