@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringOrdering",
+            "request": "launch",
+            "mainClass": "String.StringOrdering",
+            "projectName": "0's & 1's_bed3bbbe"
+        },
+        {
+            "type": "java",
             "name": "String_1",
             "request": "launch",
             "mainClass": "String.String_1",
